@@ -1,0 +1,25 @@
+P9 ARITHMETIC OPERATIONS
+
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    float c;
+    a=5;
+    b=3;
+    c=a+b;
+    printf("Sum of %d and %d is %.2f\n",a,b,c);
+    c=a*b;
+    printf("Product of %d and %d is %.2f\n",a,b,c);
+    c=a/b;
+    printf("Integer Division of %d by %d is %.2f\n",a,b,c);
+    c=(float)a/b;
+    printf("Real division of %d by %d is %.2f\n",a,b,c);
+    return 0;
+}
+
+
+OUTPUT-Sum of 5 and 3 is 8.00
+       Product of 5 and 3 is 15.00
+       Integer Division of 5 by 3 is 1.00
+       Real division of 5 by 3 is 1.67
